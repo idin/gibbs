@@ -29,7 +29,7 @@ setup(
     ],
 
     packages=find_packages(exclude=("jupyter_tests", ".idea", ".git")),
-    install_requires=['pdf', 'linguistics', 'chronometry', 'pandas', 'ravenclaw'],
+    install_requires=['pdf', 'linguistics', 'chronometry', 'pandas', 'ravenclaw', 'joblib'],
     python_requires='~=3.6',
     zip_safe=True,
     test_suite='nose.collector'
